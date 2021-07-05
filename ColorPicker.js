@@ -547,7 +547,7 @@ module.exports = class ColorPicker extends Component {
 			// zIndex: 2,
 		}
 		const sliderThumbStyle = {
-			left: row?0:this.slideX,
+			right: row?0:this.slideX,
 			top: row?this.slideY:0,
 			// transform: [row?{translateX:8}:{translateY:8}],
 			backgroundColor: this.props.shadeSliderThumb === true ? hsv: hex,
@@ -669,7 +669,7 @@ const ss = StyleSheet.create({
 	sliderThumb: {
 		position: 'absolute',
 		top: 0,
-		left: 0,
+		right: 0,
 		borderWidth: 2,
 		borderColor: '#EEEEEE',
 		elevation: 4,

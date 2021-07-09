@@ -1,6 +1,6 @@
-# React Native Wheel Color Picker
+# React Native Wheel Color Picker Rtl
 
-A color picker component for react native.
+A color picker rtl component for react native.
 
 ## Features
 - Pure JS, lightweight, works on Android, iOS and Web
@@ -11,12 +11,16 @@ A color picker component for react native.
 
 ![Demo Image](https://naeemur.github.io/asset-bucket/rn-wheel-color-picker.gif)
 
-(This demo uses my [react-native-advanced-ripple](https://github.com/Naeemur/react-native-advanced-ripple) and [react-native-elevation](https://github.com/Naeemur/react-native-elevation) modules.)
+
 
 ## Installation
 
 ```
-npm install react-native-wheel-color-picker
+npm install @navid73/react-native-wheel-color-picker-rtl
+```
+
+```
+yarn add @navid73/react-native-wheel-color-picker-rtl
 ```
 
 ## Usage
@@ -25,7 +29,7 @@ npm install react-native-wheel-color-picker
 import { Component } from 'react'
 import { View, Text } from 'react-native'
 
-import ColorPicker from 'react-native-wheel-color-picker'
+import ColorPicker from '@navid73/react-native-wheel-color-picker-rtl'
 
 class App extends Component {
 	render() {
